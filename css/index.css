@@ -69,7 +69,9 @@ p {
 header
 {
     height:300px;
-    width:100%;
+    width:80%;
+    justify-content:center;
+    margin-left:150px;
 }
 
 .logo
@@ -77,19 +79,21 @@ header
     width:80px;
     height:90px;
     display:inline-block;
+    /* margin-right:20px; */
 }
 
 .logo img
 {
     width:150px;
     margin:5%;
-    padding-right:10%;
+    padding-left:5%;;
+    /* margin-right:5%; */
 }
 
 header nav 
 {
     display:block;
-    width:100%;
+    width:80%;
     text-align:center;
     justify-content:space-evenly;
     /* height:30px; */
@@ -101,9 +105,6 @@ header nav
 
 header nav a
 {
-    /* margin-right:10%; */
-    /* margin:5%; */
-    
     text-decoration:none;
     font-family:sans-serif;
     color:black;
@@ -168,11 +169,57 @@ header nav a
     display: flex;
     align-items: center;
     justify-content: center;
+    transition:.3s;
 }
 
 .box1:hover
 {
-    background:
+    background:#2790a3;
+}
+
+.box2:hover
+{
+    background:#fadd69;
+}
+
+.box3:hover
+{
+    background:#87c7b8;
+}
+
+.box4:hover
+{
+    background:#fc9758;
+}
+
+.box5:hover
+{
+    background:#e01f5d;
+}
+
+.box6:hover
+{
+    background:#29a327;
+}
+
+.box7:hover
+{
+    background:#ab14fc;
+}
+
+.box8:hover
+{
+    background:#d94596;
+}
+
+.box9:hover
+{
+    background:#33078c;
+}
+
+.box10:hover
+{
+    background:#74b6db;
 }
 
 .bottom-content {
