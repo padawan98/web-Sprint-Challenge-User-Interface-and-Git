@@ -96,11 +96,11 @@ header nav
     width:80%;
     text-align:center;
     justify-content:space-evenly;
-    /* height:30px; */
     margin-top:-70px;
     margin-left:100px;
     margin-right:100px;
-    /* padding-top:10px; */
+    padding: 20px 2%;
+    font-size: 14px;
 }
 
 header nav a
@@ -160,7 +160,7 @@ header nav a
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10{
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10{
     width: 12.5%;
     height: 100px;
     background: black;
@@ -219,7 +219,7 @@ header nav a
 
 .box10:hover
 {
-    background:dodger;
+    background:dodgerblue;
 }
 
 .bottom-content {
